@@ -4,7 +4,7 @@ import PackageDescription
 
 
 let package = Package(
-    name: "swift-countries",
+    name: "swift-datastructures",
 	platforms: [
 		.iOS(.v13),
 		.watchOS(.v6),
@@ -12,15 +12,15 @@ let package = Package(
 	],
     products: [
         .library(
-            name: "Countries",
-            targets: ["Countries"]
+            name: "DataStructures",
+            targets: ["DataStructures"]
 		),
     ],
     targets: [
         .target(
-            name: "Countries",
+            name: "DataStructures",
             dependencies: [],
-			path: "Sources"
+			path: "DataStructures"
 		)
     ]
 )
