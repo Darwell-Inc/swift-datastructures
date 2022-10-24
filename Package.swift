@@ -20,7 +20,7 @@ let package = Package(
         .target(
             name: "DataStructures",
             dependencies: [],
-			path: "DataStructures"
+			path: "Sources"
 		)
     ]
 )
